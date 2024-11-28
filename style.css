@@ -89,4 +89,18 @@ li {
     border-radius: 8px; 
 }
 
+.project-images a, .profile a {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+.project-images img, .profile img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-images img:hover, .profile img:hover {
+    transform: scale(1.05); /* ขยายเล็กน้อยเมื่อชี้เมาส์ */
+}
+
 
