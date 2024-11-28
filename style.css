@@ -28,7 +28,7 @@ body {
 }
 
 .social-links img:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 .avatar {
     width: 100px;
@@ -78,15 +78,15 @@ li {
 .project-images {
     display: flex;
     justify-content: center; 
-    gap: 16px; 
+    gap: 100px; 
     margin-top: 16px; 
 }
 
 .project-img {
     width: 500px; 
     height: auto; 
-    border: 1px solid #ccc; 
-    border-radius: 8px; 
+    border: 5px solid #000000; 
+    border-radius: 20px; 
 }
 
 .project-images a, .profile a {
@@ -100,7 +100,7 @@ li {
 }
 
 .project-images img:hover, .profile img:hover {
-    transform: scale(1.05); /* ขยายเล็กน้อยเมื่อชี้เมาส์ */
+    transform: scale(1.05); 
 }
 
 
