@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #000000ae;
+    background-color: #000B58;
     padding: 20px;
     text-align: center;
 }
@@ -47,7 +47,7 @@ main {
 
 .about, .skills-tools, .projects, .works {
     margin-bottom: 20px;
-    background-color: #000000ae;
+    background-color: #003161;
     padding: 20px;
     border-radius: 8px;
     color: white;
