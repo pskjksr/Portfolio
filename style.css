@@ -69,9 +69,24 @@ li {
 }
 
 .icon {
-    width: 40px; /* ขนาดความกว้างของไอคอน */
-    height: 40px; /* ขนาดความสูงของไอคอน */
-    margin-right: 8px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
-    vertical-align: middle; /* จัดให้อยู่กลางแนวข้อความ */
+    width: 40px; 
+    height: 40px; 
+    margin-right: 8px; 
+    vertical-align: middle; 
 }
+
+.project-images {
+    display: flex;
+    justify-content: center; 
+    gap: 16px; 
+    margin-top: 16px; 
+}
+
+.project-img {
+    width: 500px; 
+    height: auto; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+}
+
 
