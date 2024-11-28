@@ -6,10 +6,16 @@ body {
 }
 
 .header {
-    background-color: #000B58;
-    padding: 20px;
+    background-image: url('Designer.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 40px 20px; 
     text-align: center;
+    color: white; 
+    position: relative; 
 }
+
 
 .social-links {
     position: absolute;
@@ -47,7 +53,7 @@ main {
 
 .about, .skills-tools, .projects, .works {
     margin-bottom: 20px;
-    background-color: #003161;
+    background-color: #1E3A8A ;
     padding: 20px;
     border-radius: 8px;
     color: white;
@@ -102,5 +108,6 @@ li {
 .project-images img:hover, .profile img:hover {
     transform: scale(1.05); 
 }
+
 
 
