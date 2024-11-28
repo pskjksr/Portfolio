@@ -11,6 +11,25 @@ body {
     text-align: center;
 }
 
+.social-links {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
 .avatar {
     width: 100px;
     border-radius: 50%;
@@ -28,7 +47,7 @@ main {
 
 .about, .skills-tools, .projects, .works {
     margin-bottom: 20px;
-    background-color: #000000;
+    background-color: #000000ae;
     padding: 20px;
     border-radius: 8px;
     color: white;
@@ -48,3 +67,11 @@ ul {
 li {
     margin-bottom: 5px;
 }
+
+.icon {
+    width: 40px; /* ขนาดความกว้างของไอคอน */
+    height: 40px; /* ขนาดความสูงของไอคอน */
+    margin-right: 8px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+    vertical-align: middle; /* จัดให้อยู่กลางแนวข้อความ */
+}
+
